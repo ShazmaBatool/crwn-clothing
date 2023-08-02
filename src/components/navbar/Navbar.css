@@ -1,0 +1,35 @@
+.crown-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:2rem;
+}
+.crown-logo{
+    width: 3rem;
+    height:3rem;
+}
+.shopping-bag-icon{
+    width: 3rem;
+    height: 3rem;
+}
+.header-cta {
+    display: flex;
+    align-items: center;
+  }
+.header-cta > *{
+    margin:4px;
+}
+.header-cta > button:first-child{
+    border: 1px solid rgb(119, 119, 119);
+}
+.header-cta-btn{
+    border: none;
+    width: 6rem;
+    height: 3rem;
+    border-radius: 0.25rem;
+    background-color: white;
+}
+.header-cta-btn.active,
+.header-cta-btn:focus {
+    border: 1px solid rgb(119, 119, 119);
+}

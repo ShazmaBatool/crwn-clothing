@@ -1,0 +1,17 @@
+.shopCard-body{
+    display: flex;
+    flex-direction: column;  
+}
+
+#shopImg{
+    width:280px;
+    height:400px;
+}
+
+
+.card-image-text{
+    width: 280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
